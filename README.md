@@ -25,27 +25,19 @@ This is a Django project with several dependencies including `drf_spectacular`, 
 
 1. **Clone Repository:**
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/iftesamulohy/movietask.git>
 Install Dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Apply Migrations:
+```bash
 
-bash
-Copy code
-python manage.py migrate
-Create Superuser (if needed):
+    pip install -r requirements.txt
 
-bash
-Copy code
-python manage.py createsuperuser
-Run Development Server:
+    python manage.py migrate
 
-bash
-Copy code
-python manage.py runserver
+    python manage.py createsuperuser
+
+    python manage.py runserver
+```
 Access Admin Panel:
 Visit http://localhost:8000/admin and login with superuser credentials.
 
